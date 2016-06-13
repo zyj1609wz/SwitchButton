@@ -156,6 +156,7 @@ selector_switch_slider.xml
 >* setWithTextInterval(int withTextInterval)：设置标题和按钮的间距，默认为16
 >* setDuration(int duration)：设置动画持续时间，单位毫秒，默认为200
 >* setMinChangeDistanceScale(float minChangeDistanceScale)：设置滑动有效距离比例，默认为0.2。例如按钮宽度为100，比例为0.2，那么只有当滑动距离大于等于(100*0.2)才会切换状态，否则就回滚
+>* setOnCheckedChangeListener( CompoundButton.OnCheckedChangeListener() listener ) :设置滑块状态变化监听
 
 示例图片源码
 ```xml
@@ -268,21 +269,3 @@ selector_switch_slider.xml
 
 ```
 
-##License
-```java
-/*
- * Copyright (C) 2013 Peng fei Pan <sky@xiaopan.me>
- * 
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- * 
- *   http://www.apache.org/licenses/LICENSE-2.0
- * 
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-```
